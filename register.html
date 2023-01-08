@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c739c14eb5.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Varela+Round&display=swap" rel="stylesheet">
+    <title>Shopping Cart | Register Page</title>
+    <link rel="stylesheet" href="style/font-awesome.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/register.css">
+    <link rel="stylesheet" href="style/style-rtl.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html"    class="brand">Shopping Cart</a>
+            <nav>
+               <ul>
+                <li><a href="login.html">Sign In</a></li>
+                <li><a href="register.html">Sign Up</a></li>
+                <li id="en-lang">En</li>
+                <li id="ar-lang">Ar</li>
+               </ul>
+            </nav>
+            </div>
+        </div>
+    </header>
+    <section    class="form-section">
+        <h2>Register User</h2>
+        <form   novalidate>
+            <input type="text"  placeholder="Enter Username.."  id="username">
+            <input type="email"  placeholder="Enter Email.."    id="email">            
+            <input type="password"  placeholder="Enter Password.."  id="password">
+            <input type="submit"    value="Sign Up" id="sign-up">
+             have an account <a href="login.html"> Log In </a>
+        </form>
+    </section>
+    
+    <script src="js/register.js"></script>
+    <script src="js/langDir.js"></script>
+</body>
+</html>
